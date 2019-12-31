@@ -10,7 +10,6 @@ dependencies:
   - pytest>=5.0.1
   - pytest-xdist>=1.21
   - hypothesis>=3.58.0
-  - pytest-azurepipelines
 
   # pandas dependencies
   - beautifulsoup4
@@ -34,3 +33,8 @@ dependencies:
   - xlsxwriter
   - xlwt
   - pyreadstat
+
+  # test azure pipeline update
+  - pip
+  - pip:
+    - pytest-azurepipelines==1.0.0rc1
